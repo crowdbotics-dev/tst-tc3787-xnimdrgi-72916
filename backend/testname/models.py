@@ -3,7 +3,5 @@ from django.db import models
 class Tester(models.Model):
     'Generated Model'
     test = models.BigIntegerField()
-    testnam = models.BigIntegerField(null=True,blank=True,)
-    fdhdghghdf = models.BigIntegerField(null=True,blank=True,)
 
 # Create your models here.

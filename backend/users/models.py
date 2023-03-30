@@ -20,7 +20,5 @@ class User(AbstractUser):
     """
     name = models.CharField(null=True,blank=True,max_length=255,)
     iestame = models.TimeField(null=True,blank=True,)
-    test = models.BigIntegerField(null=True,blank=True,)
-    ytty = models.BigIntegerField(null=True,blank=True,)
     def get_absolute_url(self):
         return reverse('users:detail', kwargs={'username': self.username})
